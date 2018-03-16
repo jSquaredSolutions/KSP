@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MsxhNhIr/FE6a1RNSok3S76RYtimZffO+cqOaeST3Vk=</dsig:DigestValue>
+        <dsig:DigestValue>mLJ107kuUvUsdUANEhEWRznThRJ6wCK8jnvwv/Sgl9U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -60,6 +60,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\Alarm03.wav" size="355588">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TiNqGKUdGarRT7PoC+Q7R94hVX8FuVeQT42r09VlhrU=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

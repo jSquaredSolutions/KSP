@@ -9,13 +9,15 @@ using System.Media;
 namespace KeyLogger {
 public static class Program {
 private const int WH_KEYBOARD_LL = 13;
-private const int WM_KEYDOWN = 0x0100;private const string logFileName = "log.txt";
-private static StreamWriter logFile; private static HookProc hookProc = HookCallback;
+private const int WM_KEYDOWN = 0x0100;
+// private static string logFileName = "log.txt";
+// private static StreamWriter logFile;
+private static HookProc hookProc = HookCallback;
 private static IntPtr hookId = IntPtr.Zero;
 public static void Main()
 {
-    logFile = File.AppendText(logFileName);
-    logFile.AutoFlush = true;
+  //  logFile = File.AppendText(logFileName);
+  //  logFile.AutoFlush = true;
     hookId = SetHook(hookProc);
     Application.Run();
     UnhookWindowsHookEx(hookId);
@@ -30,10 +32,20 @@ private static IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
 {
     if (nCode >= 0 && wParam == (IntPtr)WM_KEYDOWN)
     {
-        int vkCode = Marshal.ReadInt32(lParam);
-        Console.WriteLine((Keys)vkCode);
-                SoundPlayer player = new SoundPlayer(@"C:\Windows\media\Alarm01.wav");
-                player.Play();
+       int vkCode = Marshal.ReadInt32(lParam);
+                Console.WriteLine((Keys)vkCode+"   "+vkCode+"    "+lParam);
+                System.Media.SoundPlayer myPlayer = new System.Media.SoundPlayer();
+                switch (vkCode)
+                 {
+                     case 65:
+                        myPlayer.SoundLocation = @"C:\Windows\media\Alarm01.wav";
+                        myPlayer.Play();
+                        break;
+                     case 66:
+                        myPlayer.SoundLocation = @"";
+                        myPlayer.Play();
+                        break;
+                 }             
                     }
     return CallNextHookEx(hookId, nCode, wParam, lParam);
 }
