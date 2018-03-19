@@ -37,15 +37,24 @@ private static IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
                 System.Media.SoundPlayer myPlayer = new System.Media.SoundPlayer();
                 switch (vkCode)
                  {
-                     case 65:
-                        myPlayer.SoundLocation = @"C:\Windows\media\Alarm01.wav";
+                     case 65: // A Yaw left
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\YawUp.wav";
                         myPlayer.Play();
                         break;
-                     case 66:
+                    case 68: // D Yaw right
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\YawRight.wav";
+                        myPlayer.Play();
+                        break;
+                    case 83: // S PitchUp
                         myPlayer.SoundLocation = @"";
                         myPlayer.Play();
                         break;
-                 }             
+                    case 87: // W PitchDown
+                        myPlayer.SoundLocation = @"";
+                        myPlayer.Play();
+                        break;
+
+                }             
                     }
     return CallNextHookEx(hookId, nCode, wParam, lParam);
 }

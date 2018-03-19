@@ -98,7 +98,12 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SoundMedia\Alarm03.wav" />
+    <Content Include="SoundMedia\pitchDown.wav" />
+    <Content Include="SoundMedia\pitchUp.wav" />
+    <Content Include="SoundMedia\throttleDown.wav" />
+    <Content Include="SoundMedia\throttleUp.wav" />
+    <Content Include="SoundMedia\YawRight.wav" />
+    <Content Include="SoundMedia\YawUp.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

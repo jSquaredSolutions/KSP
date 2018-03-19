@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mLJ107kuUvUsdUANEhEWRznThRJ6wCK8jnvwv/Sgl9U=</dsig:DigestValue>
+        <dsig:DigestValue>UiocIzCC/Bz7XyG26E+Q7KojHIqdNPlj2dMkhJ0pMoU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,13 +62,58 @@
       <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SoundMedia\Alarm03.wav" size="355588">
+  <file name="SoundMedia\pitchDown.wav" size="126788">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TiNqGKUdGarRT7PoC+Q7R94hVX8FuVeQT42r09VlhrU=</dsig:DigestValue>
+      <dsig:DigestValue>SHbWypcVHbRS3xWt1TFudDc23nTR0mHY5YI2wdD+vCA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\pitchUp.wav" size="69132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xCKKBTBtm0I3eLODqRhtyOoWvg8oLHgeKEGPxIrIKqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\throttleDown.wav" size="165016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nJoJVa5pcUXg61TYCfspEgdk2SPke6pbqXzFJeIsRwM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\throttleUp.wav" size="85176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Otb1Xebvhk1GGH4p0ljn0/P7PazJfgilxM4FJ3quUI8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\YawRight.wav" size="116780">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BrmVcqgpV4D+SaDesFKFNeVNhtK2sO+v+gAuOXApvyY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\YawUp.wav" size="94252">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NrDNK5SlTyoc+phEoAZBnqeqNa3JwEWAEMo4WsGcxd8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
