@@ -46,11 +46,19 @@ private static IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
                         myPlayer.Play();
                         break;
                     case 83: // S PitchUp
-                        myPlayer.SoundLocation = @"";
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\pitchUp.wav";
                         myPlayer.Play();
                         break;
                     case 87: // W PitchDown
-                        myPlayer.SoundLocation = @"";
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\pitchDown.wav";
+                        myPlayer.Play();
+                        break;
+                    case 160: // LeftShift Throddle up
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\throttleUp.wav";
+                        myPlayer.Play();
+                        break;
+                    case 162: // Leftcontrol Throddle down
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\throttleDown.wav";
                         myPlayer.Play();
                         break;
 
