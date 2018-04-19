@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ConsoleApp1.exe.manifest" size="5893">
+    <dependentAssembly dependencyType="install" codebase="ConsoleApp1.exe.manifest" size="8310">
       <assemblyIdentity name="ConsoleApp1.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>282+3MnALL/iFdAx1lELq2rH7F73TaSiALY2VNqWwoI=</dsig:DigestValue>
+        <dsig:DigestValue>+Pckax1fpXAw+Tpp0MY9sQMd55bqiWOzLy0j5J+XKdg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

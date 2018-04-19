@@ -98,8 +98,12 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SoundMedia\cutThrottle.wav" />
+    <Content Include="SoundMedia\map.wav" />
+    <Content Include="SoundMedia\Pcontrol.wav" />
     <Content Include="SoundMedia\pitchDown.wav" />
     <Content Include="SoundMedia\pitchUp.wav" />
+    <Content Include="SoundMedia\RemovePart.wav" />
     <Content Include="SoundMedia\RollLeft.wav" />
     <Content Include="SoundMedia\RollRight.wav" />
     <Content Include="SoundMedia\throttleDown.wav" />

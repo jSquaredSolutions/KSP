@@ -61,6 +61,22 @@ private static IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
                         myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\throttleDown.wav";
                         myPlayer.Play();
                         break;
+                    case 77: // Map
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\map.wav";
+                        myPlayer.Play();
+                        break;
+                    case 20: // Precise Controls
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\Pcontrol.wav";
+                        myPlayer.Play();
+                        break;
+                    case 46: // Delete Part
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\RemovePart.wav";
+                        myPlayer.Play();
+                        break;
+                    case 88: // cut throt
+                        myPlayer.SoundLocation = @"C:\Users\jsquared\Desktop\KSP\ConsoleApp1\SoundMedia\cutThrottle.wav";
+                        myPlayer.Play();
+                        break;
 
                 }             
                     }

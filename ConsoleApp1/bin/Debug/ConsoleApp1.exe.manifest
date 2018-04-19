@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleApp1.exe" size="8176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleApp1.exe" size="9200">
       <assemblyIdentity name="ConsoleApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KKKaoaEGMQHJVBsGKcmUNRYIWfNUuH1ApKGE9Oh8sNU=</dsig:DigestValue>
+        <dsig:DigestValue>Q1LXPjaeJ7MA/LUc3dbW4lo9fV3AmT05F2p2aaBvK2s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -60,6 +60,33 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\cutThrottle.wav" size="106540">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8L9B5669KiEZHzugr6JChDsid50GKwG/7LxFzX3Ixt8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\map.wav" size="70700">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LahhrZaeg8/UpiPtH2y/0Z4DXNoP2X/JIayW9eioEhA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\Pcontrol.wav" size="183340">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p+lcJkE/z2a5cRtpz4EnoNjzHEbEBwBEOSahdyFpH/0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SoundMedia\pitchDown.wav" size="126788">
@@ -78,6 +105,33 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>xCKKBTBtm0I3eLODqRhtyOoWvg8oLHgeKEGPxIrIKqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\RemovePart.wav" size="215084">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/EDdF3wqvB1/CajxJDFWSKFEp3w9n1ILxzluaouxr24=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\RollLeft.wav" size="98348">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OkZdRaaaUBxhesPFeY9tYhck2G6d+HqAqST9LfvawWg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SoundMedia\RollRight.wav" size="120364">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ogQHfYVYIkIkDw6g1lBfNITF8VhU1X2If3x2K7QYzRQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SoundMedia\throttleDown.wav" size="165016">
